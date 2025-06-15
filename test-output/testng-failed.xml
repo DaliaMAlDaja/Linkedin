@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="linkedin.linkedin.AppTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="PositionButton"/>
+          <include name="SigninwithGoogle"/>
+          <include name="editProfile"/>
+          <include name="selectStartDate"/>
+          <include name="headlineField"/>
+          <include name="Search"/>
+          <include name="addSkillTest"/>
+          <include name="SaveButton1"/>
+          <include name="companyInput"/>
+          <include name="JobsTab"/>
+          <include name="Login"/>
+          <include name="connectButton"/>
+          <include name="editIntroButton"/>
+          <include name="SaveButton"/>
+          <include name="filterByLast24Hours"/>
+          <include name="activateSearchAlert"/>
+          <include name="Professionalfield"/>
+          <include name="searchForAccount"/>
+          <include name="employmentType"/>
+        </methods>
+      </class> <!-- linkedin.linkedin.AppTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
